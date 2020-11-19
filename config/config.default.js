@@ -11,7 +11,7 @@ module.exports = app => {
   const exports = {};
 
   exports.bodyFilter = {
-    header: 'AA-Filter'.toLowerCase(),
+    header: 'Body-Filter'.toLowerCase(),
     json: ['application/json']
   };
 
